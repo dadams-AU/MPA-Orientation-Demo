@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.12.5)  10 JAN 2025 20:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.12.5)  10 JAN 2025 20:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -903,7 +903,7 @@ Overfull \vbox (10.7644pt too high) detected at line 199
 <images/doucette.png, id=75, 395.4775pt x 399.4925pt>
 File: images/doucette.png Graphic file (type png)
 <use images/doucette.png>
-Package pdftex.def Info: images/doucette.png  used on input line 220.
+Package pdftex.def Info: images/doucette.png  used on input line 219.
 (pdftex.def)             Requested size: 98.58551pt x 99.58464pt.
  [10
 
@@ -911,7 +911,7 @@ Package pdftex.def Info: images/doucette.png  used on input line 220.
 <images/frey.jpg, id=82, 598.235pt x 671.50874pt>
 File: images/frey.jpg Graphic file (type jpg)
 <use images/frey.jpg>
-Package pdftex.def Info: images/frey.jpg  used on input line 243.
+Package pdftex.def Info: images/frey.jpg  used on input line 242.
 (pdftex.def)             Requested size: 88.71812pt x 99.58464pt.
  [11
 
@@ -919,7 +919,7 @@ Package pdftex.def Info: images/frey.jpg  used on input line 243.
 <images/hill.jpg, id=88, 172.645pt x 230.8625pt>
 File: images/hill.jpg Graphic file (type jpg)
 <use images/hill.jpg>
-Package pdftex.def Info: images/hill.jpg  used on input line 263.
+Package pdftex.def Info: images/hill.jpg  used on input line 262.
 (pdftex.def)             Requested size: 74.47035pt x 99.58464pt.
  [12
 
@@ -1022,7 +1022,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  128i,13n,123p,1994b,582s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
-Output written on "MPA Orientation - Spring 2025.pdf" (36 pages, 6306015 bytes).
+Output written on "MPA Orientation - Spring 2025.pdf" (36 pages, 6306003 bytes).
 PDF statistics:
  301 PDF objects out of 1000 (max. 8388607)
  220 compressed objects within 3 object streams

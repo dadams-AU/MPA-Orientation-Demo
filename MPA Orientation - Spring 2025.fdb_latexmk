@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1736570674.34106 "/home/dadams/CSU Fullerton Dropbox/David Adams/PAJ Division/PA/Admissions/Orientation Materials/MPA Orientation - Spring 2025.tex" "MPA Orientation - Spring 2025.pdf" "MPA Orientation - Spring 2025" 1736570675.70982 0
-  "/home/dadams/CSU Fullerton Dropbox/David Adams/PAJ Division/PA/Admissions/Orientation Materials/MPA Orientation - Spring 2025.tex" 1736570364.02658 18228 5cad265d507dbe5e38228c2e985c3211 ""
+["pdflatex"] 1736570830.88599 "/home/dadams/CSU Fullerton Dropbox/David Adams/PAJ Division/PA/Admissions/Orientation Materials/MPA Orientation - Spring 2025.tex" "MPA Orientation - Spring 2025.pdf" "MPA Orientation - Spring 2025" 1736570832.33125 0
+  "/home/dadams/CSU Fullerton Dropbox/David Adams/PAJ Division/PA/Admissions/Orientation Materials/MPA Orientation - Spring 2025.tex" 1736570830.67197 18217 d70254a16a79cc5a3facdc7d425b1dd7 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727349926 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1727349926 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcss0900.tfm" 1727349926 1536 ba0169ee8bc017972775b933313cbbb0 ""
@@ -220,10 +220,10 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1733468204.6143 5312047 b07fcd2a9090df96fc745b92a3db793b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1733468182 7112988 dcdb991ae45cf5dc9f43bc5a0249169e ""
-  "MPA Orientation - Spring 2025.aux" 1736570675.6246 5076 e87ca830080f4254642c3f1fe34b2d18 "pdflatex"
-  "MPA Orientation - Spring 2025.nav" 1736570675.6246 3527 ea08a765334cdb600842937994d615c6 "pdflatex"
-  "MPA Orientation - Spring 2025.out" 1736570674.8946 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "MPA Orientation - Spring 2025.tex" 1736570364.02658 18228 5cad265d507dbe5e38228c2e985c3211 ""
+  "MPA Orientation - Spring 2025.aux" 1736570832.24531 5076 e87ca830080f4254642c3f1fe34b2d18 "pdflatex"
+  "MPA Orientation - Spring 2025.nav" 1736570832.24531 3527 ea08a765334cdb600842937994d615c6 "pdflatex"
+  "MPA Orientation - Spring 2025.out" 1736570831.47864 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "MPA Orientation - Spring 2025.tex" 1736570830.67197 18217 d70254a16a79cc5a3facdc7d425b1dd7 ""
   "images/PUBLIC-ADMINISTRATION-color.png" 1715354283 18402 c886437e442828a173563dc4f518b8d8 ""
   "images/PUBLIC-ADMINISTRATION-color2.png" 1715354150 16365 79c4f5d743054acc39c2d543c06970b0 ""
   "images/adams.jpg" 1736563789.45505 5791 7057c82e5f3fa9f099eae9b99f0e48cd ""
