@@ -3,6 +3,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{calc}
+\usepackage{tikz}
 
 % Setup for faculty images
 \newlength{\imageheight}
@@ -49,16 +50,38 @@
 \setbeamerfont{title}{size=\Large, series=\bfseries}
 \setbeamerfont{frametitle}{size=\large, series=\bfseries}
 
+% Simple title page template
+\defbeamertemplate*{title page}{customized}[1][]
+{
+    \vspace{1cm}
+    {\usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle\par}
+    \vspace{0.5cm}
+    {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}
+    \vspace{0.5cm}
+    {\usebeamerfont{date}\usebeamercolor[fg]{date}\insertdate\par}
+    \vfill
+    {\insertinstitute\par}
+}
+
+% Add progress bar
+\makeatletter
+\setbeamertemplate{headline}{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.4cm,dp=0cm]{titanblue}%
+    \begin{tikzpicture}
+      \fill[titanorange] (0,0) rectangle (\the\paperwidth*\insertframenumber/\inserttotalframenumber,0.4cm);
+    \end{tikzpicture}%
+  \end{beamercolorbox}%
+}
+\makeatother
 \begin{document}
 
 \title{Master of Public Administration Program}
 \subtitle{MPA Student Orientation}
 \date{Spring 2025}
-\vspace{1cm}
-\institute{\includegraphics[width=.8\textwidth]{images/PUBLIC-ADMINISTRATION-color2.png}
-}
+\institute{\includegraphics[width=.8\textwidth]{images/PUBLIC-ADMINISTRATION-color2.png}}
 
 \maketitle
+
 
 \begin{frame}{Agenda}
 \begin{itemize}
@@ -114,7 +137,7 @@
 \end{frame}
 
 \begin{frame}{MPA Program Faculty}
-    \begin{columns}[t]
+    \begin{columns}[T]
     \column{0.65\textwidth}
     \textbf{Core Faculty Members}
     \begin{itemize}
@@ -129,7 +152,7 @@
     \end{frame}
     
     \begin{frame}{Program Director}
-    \begin{columns}[t]
+    \begin{columns}[T]
     \column{0.65\textwidth}
     \textbf{David P. Adams, Ph.D.}
     \begin{itemize}
@@ -140,12 +163,13 @@
     
     \textbf{Research:}
     \begin{itemize}
-    \item Policy Outcomes
-    \item Administrative Discretion
-    \item Community Resilience
+    \item Public Policy Outcomes
+    \item Collaboration
+    \item Environmental and Energy Policy
+    \item Environmental Justice
     \end{itemize}
     
-    \textbf{Courses:} POSC 509, 521, 588
+    \textbf{Courses:} Foundations of PA, Capstone Seminar, Collaborative Governance
     
     \column{0.35\textwidth}
     \vspace*{0.5cm} % Adjust vertical spacing
@@ -154,19 +178,23 @@
     \end{frame}
         
     \begin{frame}{Faculty Profile}
-    \begin{columns}[t]
+    \begin{columns}[T]
     \column{0.65\textwidth}
     \textbf{Shelly Arsneault, Ph.D.}
     \begin{itemize}
-    \item Professor
+    \item Professor and Vice Chair of PAJ
     \item At CSUF since 2002
     \item Ph.D. from Michigan State University
     \item Editorial Board, Journal of Public Affairs Education
     \end{itemize}
     
-    \textbf{Research:} Nonprofit Management, Education Policy
-    
-    \textbf{Courses:} POSC 509, 521, 526, 539
+    \textbf{Research:} 
+    \begin{itemize}
+    \item Nonprofit Management
+    \item Education Policy
+    \end{itemize}
+
+    \textbf{Courses:} Foundations of PA, Nonprofit Management, Education Policy
     
     \column{0.35\textwidth}
     \vspace*{0.5cm}
@@ -175,12 +203,12 @@
     \end{frame}
 
     \begin{frame}{Faculty Profile}
-        \begin{columns}[t]
+        \begin{columns}[T]
         \column{0.65\textwidth}
         \textbf{Sean Angst, Ph.D.}
         \begin{itemize}
         \item Ph.D. from USC Price School
-        \item Research cited in NYT and LA Times
+        \item At CSUF since 2024
         \end{itemize}
         
         \textbf{Research Focus:}
@@ -190,8 +218,11 @@
         \item Racial Justice
         \end{itemize}
         
-        \textbf{Publications:} Journal of Urban Affairs, Housing Policy Debate
-        
+        \textbf{Courses:} 
+        \begin{itemize}
+        \item Administrative Research and Analysis
+        \item Policy Analysis
+        \end{itemize}
         \column{0.35\textwidth}
         \vspace*{0.5cm}
         \includegraphics[height=\imageheight]{images/angst.jpg}
@@ -199,7 +230,7 @@
         \end{frame}
         
         \begin{frame}{Faculty Profile}
-        \begin{columns}[t]
+        \begin{columns}[T]
         \column{0.65\textwidth}
         \textbf{Meriem Doucette, Ph.D.}
         \begin{itemize}
@@ -208,10 +239,19 @@
         \item Ph.D. from University of Georgia
         \end{itemize}
         
-        \textbf{Research:} Organizational Theory, Change Management
-        
-        \textbf{Courses:} POSC 526, 446, 475, 582
-        
+        \textbf{Research:} 
+        \begin{itemize}
+        \item Organizational Theory
+        \item Change Management
+        \end{itemize}
+
+        \textbf{Courses:} 
+        \begin{itemize}
+        \item Organizational Theory
+        \item Ethics
+        \item Organizational Development
+        \item Leadership
+        \end{itemize}
         \column{0.35\textwidth}
         \vspace*{0.5cm}
         \includegraphics[height=\imageheight]{images/doucette.png}
@@ -219,11 +259,11 @@
         \end{frame}
         
         \begin{frame}{Faculty Profile}
-        \begin{columns}[t]
+        \begin{columns}[T]
         \column{0.65\textwidth}
         \textbf{Elaine Frey, Ph.D.}
         \begin{itemize}
-        \item Ph.D. and M.A. from George Washington University
+        \item Ph.D. from George Washington University
         \end{itemize}
         
         \textbf{Research Areas:}
@@ -233,7 +273,11 @@
         \item Applied Microeconomics
         \end{itemize}
         
-        \textbf{Courses:} POSC 421, 428
+        \textbf{Courses:} 
+        \begin{itemize}
+        \item Environmental Policy
+        \item Administrative Research and Analysis
+        \end{itemize}
         
         \column{0.35\textwidth}
         \vspace*{0.5cm}
@@ -242,7 +286,7 @@
         \end{frame}
         
         \begin{frame}{Faculty Profile}
-        \begin{columns}[t]
+        \begin{columns}[T]
         \column{0.65\textwidth}
         \textbf{Sarah A. Hill, Ph.D.}
         \begin{itemize}
@@ -251,10 +295,18 @@
         \item Ph.D. from California Institute of Technology
         \end{itemize}
         
-        \textbf{Research:} Education Policy, Elections Administration
-        
-        \textbf{Courses:} POSC 426, 519, 528, 423
-        
+        \textbf{Research:} 
+        \begin{itemize}
+            \item Elections Administration
+            \item Education Policy
+        \end{itemize}
+
+        \textbf{Courses:} 
+        \begin{itemize}
+        \item State \& Local Government
+        \item Public Policy
+        \item Diversity in Public Management
+        \end{itemize}
         \column{0.35\textwidth}
         \vspace*{0.5cm}
         \includegraphics[height=\imageheight]{images/hill.jpg}
@@ -262,48 +314,37 @@
         \end{frame}
         
         \begin{frame}{Faculty Profile}
-        \begin{columns}[t]
+        \begin{columns}[T]
         \column{0.65\textwidth}
         \textbf{Myung-Jung "MJ" Kwon, Ph.D.}
         \begin{itemize}
-        \item Professor
+        \item Professor and MPA Advisor
         \item At CSUF since 2009
-        \item MPA Advisor
         \item Ph.D. from Florida State University
+        \item Editorial Board, International Journal of Public Administration
         \end{itemize}
         
-        \textbf{Research:} Telework, Sustainability, Strategic Planning
+        \textbf{Research:}
+        \begin{itemize}
+        \item Public Sector Innovation
+        \item E-Government
+        \end{itemize}
         
-        \textbf{Courses:} POSC 572, 522, 423
-        
+        \textbf{Courses:}
+        \begin{itemize}
+        \item Human Resources Management
+        \item Public Personnel Administration
+        \item Diversity in Public Management
+        \end{itemize}
+
         \column{0.35\textwidth}
         \vspace*{0.5cm}
         \includegraphics[height=\imageheight]{images/kwon.jpg}
         \end{columns}
         \end{frame}
-        
+    
         \begin{frame}{Faculty Profile}
-        \begin{columns}[t]
-        \column{0.65\textwidth}
-        \textbf{Scott Spitzer, Ph.D.}
-        \begin{itemize}
-        \item Professor
-        \item At CSUF since 2006
-        \item Ph.D. from Columbia University
-        \end{itemize}
-        
-        \textbf{Research:} Urban Politics, Racial Politics, Social Welfare
-        
-        \textbf{Courses:} POSC 427, 459
-        
-        \column{0.35\textwidth}
-        \vspace*{0.5cm}
-        \includegraphics[height=\imageheight]{images/spitzer.png}
-        \end{columns}
-        \end{frame}
-        
-        \begin{frame}{Faculty Profile}
-        \begin{columns}[t]
+        \begin{columns}[T]
         \column{0.65\textwidth}
         \textbf{Samuel B. Stone, Ph.D.}
         \begin{itemize}
@@ -312,15 +353,96 @@
         \item Ph.D. from Indiana University
         \end{itemize}
         
-        \textbf{Research:} Financial Analysis, Fiscal Policy
+        \textbf{Research:}
+        \begin{itemize}
+        \item Financial Analysis
+        \item Fiscal Policy
+        \item Local Government Management
+        \end{itemize}
         
-        \textbf{Courses:} POSC 525, 571, 583
-        
+        \textbf{Courses:}
+        \begin{itemize}
+        \item Public Finance
+        \item Public Budgeting
+        \item Local Government Management
+        \end{itemize}
+
         \column{0.35\textwidth}
         \vspace*{0.5cm}
         \includegraphics[height=\imageheight]{images/stone.jpg}
         \end{columns}
         \end{frame}
+
+\begin{frame}{Faculty Profile}
+\begin{columns}[T]
+\column{0.65\textwidth}
+\textbf{Yuan Ting, Ph.D.}
+\begin{itemize}
+\item Professor
+\item At CSUF since 1991
+\item Ph.D. from Northern Illinois University
+\end{itemize}
+
+\textbf{Research:}
+\begin{itemize}
+\item Performance Measurement
+\item Job Satisfaction
+\item Public Sector Management
+\end{itemize}
+
+\textbf{Courses:}
+\begin{itemize}
+\item Human Resources Management
+\item Public Personnel Admin.
+\item Capstone Seminar
+\end{itemize}
+\column{0.35\textwidth}
+\vspace*{0.5cm}
+\includegraphics[height=\imageheight]{images/ting.jpg}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Affiliated Faculty Profile}
+    \begin{columns}[T]
+    \column{0.65\textwidth}
+    \textbf{Scott Spitzer, Ph.D.}
+    \begin{itemize}
+    \item Professor
+    \item At CSUF since 2006
+    \item Ph.D. from Columbia University
+    \end{itemize}
+    
+    \textbf{Research:} 
+    \begin{itemize}
+    \item Urban Politics
+    \item Racial Politics
+    \item Social Welfare
+    \end{itemize}
+
+    \textbf{Courses:} 
+    \begin{itemize}
+    \item Urban Politics
+    \item Metropolitan Politics and Policy
+    \end{itemize}
+    
+    \column{0.35\textwidth}
+    \vspace*{0.5cm}
+    \includegraphics[height=\imageheight]{images/spitzer.png}
+    \end{columns}
+    \end{frame}
+    
+\begin{frame}{Academic Information}
+\begin{itemize}
+\item Program Structure
+\item Concentrations
+\item Program Milestones
+\item Scholarships \& Awards
+\item Graduation Awards
+\item Keys to Graduate School Success
+\item Campus Resources Overview
+\end{itemize}
+\end{frame}
+
 
 \begin{frame}{Program Structure}
 \begin{itemize}
