@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.12.5)  11 JAN 2025 07:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.12.5)  11 JAN 2025 07:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -989,7 +989,7 @@ Package pdftex.def Info: images/spitzer.png  used on input line 432.
 <images/PUBLIC-ADMINISTRATION-color.png, id=247, 457.71pt x 303.1325pt>
 File: images/PUBLIC-ADMINISTRATION-color.png Graphic file (type png)
 <use images/PUBLIC-ADMINISTRATION-color.png>
-Package pdftex.def Info: images/PUBLIC-ADMINISTRATION-color.png  used on input line 749.
+Package pdftex.def Info: images/PUBLIC-ADMINISTRATION-color.png  used on input line 748.
 (pdftex.def)             Requested size: 128.88426pt x 85.35826pt.
  [38
 
@@ -1014,13 +1014,13 @@ Package rerunfilecheck Info: File `"MPA Orientation - Spring 2025".out' has not 
 Here is how much of TeX's memory you used:
  25439 strings out of 476076
  506605 string characters out of 5793775
- 1936187 words of memory out of 5000000
+ 1937187 words of memory out of 5000000
  46948 multiletter control sequences out of 15000+600000
  568413 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,15n,123p,1994b,763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
-Output written on "MPA Orientation - Spring 2025.pdf" (38 pages, 6316632 bytes).
+Output written on "MPA Orientation - Spring 2025.pdf" (38 pages, 6316600 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  231 compressed objects within 3 object streams
