@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  12 AUG 2025 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  12 AUG 2025 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1100,7 +1100,7 @@ Package pdftex.def Info: images/arsneault.png  used on input line 269.
 <images/angst.jpg, id=133, 427.5975pt x 642.4pt>
 File: images/angst.jpg Graphic file (type jpg)
 <use images/angst.jpg>
-Package pdftex.def Info: images/angst.jpg  used on input line 295.
+Package pdftex.def Info: images/angst.jpg  used on input line 296.
 (pdftex.def)             Requested size: 64.39131pt x 96.73918pt.
 
 
@@ -1110,7 +1110,7 @@ Package pdftex.def Info: images/angst.jpg  used on input line 295.
 <images/doucette.png, id=140, 395.4775pt x 399.4925pt>
 File: images/doucette.png Graphic file (type png)
 <use images/doucette.png>
-Package pdftex.def Info: images/doucette.png  used on input line 323.
+Package pdftex.def Info: images/doucette.png  used on input line 324.
 (pdftex.def)             Requested size: 95.7674pt x 96.73918pt.
 
 
@@ -1120,7 +1120,7 @@ Package pdftex.def Info: images/doucette.png  used on input line 323.
 <images/frey.jpg, id=147, 598.235pt x 671.50874pt>
 File: images/frey.jpg Graphic file (type jpg)
 <use images/frey.jpg>
-Package pdftex.def Info: images/frey.jpg  used on input line 349.
+Package pdftex.def Info: images/frey.jpg  used on input line 351.
 (pdftex.def)             Requested size: 86.18045pt x 96.73918pt.
 
 
@@ -1130,7 +1130,7 @@ Package pdftex.def Info: images/frey.jpg  used on input line 349.
 <images/hill.jpg, id=153, 172.645pt x 230.8625pt>
 File: images/hill.jpg Graphic file (type jpg)
 <use images/hill.jpg>
-Package pdftex.def Info: images/hill.jpg  used on input line 376.
+Package pdftex.def Info: images/hill.jpg  used on input line 378.
 (pdftex.def)             Requested size: 72.34442pt x 96.73918pt.
 
 
@@ -1140,7 +1140,7 @@ Package pdftex.def Info: images/hill.jpg  used on input line 376.
 <images/kwon.jpg, id=159, 130.743pt x 186.9165pt>
 File: images/kwon.jpg Graphic file (type jpg)
 <use images/kwon.jpg>
-Package pdftex.def Info: images/kwon.jpg  used on input line 403.
+Package pdftex.def Info: images/kwon.jpg  used on input line 405.
 (pdftex.def)             Requested size: 67.66554pt x 96.73918pt.
 
 
@@ -1150,7 +1150,7 @@ Package pdftex.def Info: images/kwon.jpg  used on input line 403.
 <images/stone.jpg, id=165, 138.627pt x 184.617pt>
 File: images/stone.jpg Graphic file (type jpg)
 <use images/stone.jpg>
-Package pdftex.def Info: images/stone.jpg  used on input line 431.
+Package pdftex.def Info: images/stone.jpg  used on input line 433.
 (pdftex.def)             Requested size: 72.64276pt x 96.73918pt.
 
 
@@ -1160,7 +1160,7 @@ Package pdftex.def Info: images/stone.jpg  used on input line 431.
 <images/spitzer.png, id=172, 150.5625pt x 170.6375pt>
 File: images/spitzer.png Graphic file (type png)
 <use images/spitzer.png>
-Package pdftex.def Info: images/spitzer.png  used on input line 458.
+Package pdftex.def Info: images/spitzer.png  used on input line 460.
 (pdftex.def)             Requested size: 85.35973pt x 96.73918pt.
 
 
@@ -1192,13 +1192,13 @@ Package pdftex.def Info: images/spitzer.png  used on input line 458.
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 515.
+(Font)              <9> on input line 517.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 515.
+(Font)              <6> on input line 517.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 515.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 517.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 515.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 517.
 
 
 [26
@@ -1288,7 +1288,7 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 <images/PUBLIC-ADMINISTRATION-color.png, id=346, 457.71pt x 303.1325pt>
 File: images/PUBLIC-ADMINISTRATION-color.png Graphic file (type png)
 <use images/PUBLIC-ADMINISTRATION-color.png>
-Package pdftex.def Info: images/PUBLIC-ADMINISTRATION-color.png  used on input line 741.
+Package pdftex.def Info: images/PUBLIC-ADMINISTRATION-color.png  used on input line 743.
 (pdftex.def)             Requested size: 128.88426pt x 85.35826pt.
 
 
@@ -1322,7 +1322,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,1986b,1114s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/lm/lmss9.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on mpa_orientation_2025_fall.pdf (46 pages, 6369955 bytes).
+Output written on mpa_orientation_2025_fall.pdf (46 pages, 6370003 bytes).
 PDF statistics:
  418 PDF objects out of 1000 (max. 8388607)
  328 compressed objects within 4 object streams
