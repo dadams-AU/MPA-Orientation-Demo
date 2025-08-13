@@ -1,3 +1,6 @@
+% CSUF MPA Orientation
+% Author: David Adams
+
 \documentclass[10pt]{beamer}
 \usetheme[numbering=fraction,progressbar=frametitle]{metropolis}
 
@@ -10,6 +13,7 @@
 \usepackage{tikz}
 \usepackage{ifluatex}
 \usepackage{microtype}
+\usepackage[utf8]{inputenc}
 \usepackage{csquotes}
 \usepackage{qrcode}
 \usepackage{hyperref}
@@ -67,7 +71,7 @@
 \setbeamerfont{frametitle}{size=\large,series=\bfseries}
 \setbeamerfont{block title}{series=\bfseries}
 
-% ---- Fix section break slides (fix black-on-black) ----
+% Section break slides
 \setbeamercolor{background canvas}{bg=white} % keep canvas white everywhere
 \setbeamercolor{standout}{bg=titanblue, fg=titanorange} % section/title slides with orange text
 \setbeamercolor{palette primary}{bg=titanblue, fg=titanorange} % for section pages
@@ -89,6 +93,16 @@
 
 % (Optional) tweak section page style if you like:
 \metroset{sectionpage=progressbar} % or sectionpage=none/simple
+% Add progress bar
+\makeatletter
+\setbeamertemplate{headline}{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.4cm,dp=0cm]{titanblue}%
+    \begin{tikzpicture}
+      \fill[titanorange] (0,0) rectangle (\the\paperwidth*\insertframenumber/\inserttotalframenumber,0.4cm);
+    \end{tikzpicture}%
+  \end{beamercolorbox}%
+}
+\makeatother
 
 % --------------------
 % Title metadata
@@ -131,7 +145,7 @@
 
 \maketitle
 
-\section{Welcome}
+\section{\textcolor{titanorange}{Welcome}}
 \begin{frame}{Agenda}
 \begin{itemize}
   \item Welcome and Program Overview
@@ -145,7 +159,7 @@
 \end{itemize}
 \end{frame}
 
-\section{Why CSUF}
+\section{\textcolor{titanorange}{Why CSUF}}
 \begin{frame}{Program by the Numbers}
 \begin{itemize}
   \item \textbf{1968:} Year the program began awarding degrees
@@ -166,7 +180,7 @@
 \end{itemize}
 \end{frame}
 
-\section{Mission \& Values}
+\section{\textcolor{titanorange}{Mission \& Values}}
 \begin{frame}{Our Mission}
 \textbf{Mission}\\
 We prepare leaders to address complex social issues, uphold democratic values, and foster ethical, equitable, and inclusive public service in Orange County and beyond.
@@ -182,7 +196,7 @@ To be recognized for excellence in value-driven public service and community eng
 \end{itemize}
 \end{frame}
 
-\section{Faculty}
+\section{\textcolor{titanorange}{Faculty}}
 \begin{frame}{MPA Program Faculty}
 \begin{columns}[T,onlytextwidth]
   \column{0.64\textwidth}
@@ -443,7 +457,7 @@ To be recognized for excellence in value-driven public service and community eng
 \end{columns}
 \end{frame}
 
-\section{Curriculum}
+\section{\textcolor{titanorange}{Curriculum}}
 \begin{frame}{Academic Information}
 \begin{itemize}
   \item Program Structure
@@ -479,7 +493,7 @@ Choose one concentration:
 \emph{Tip:} Choose a concentration that complements your role and goals.
 \end{frame}
 
-\section{Milestones}
+\section{\textcolor{titanorange}{Milestones}}
 \begin{frame}{Program Milestones Overview}
 \centering
 \textbf{Your Path to Success}\\[4pt]
@@ -555,7 +569,7 @@ Choose one concentration:
 \end{itemize}
 \end{frame}
 
-\section{Scholarships \& Awards}
+\section{\textcolor{titanorange}{Scholarships \& Awards}}
 \begin{frame}{Scholarships \& Awards}
 \begin{itemize}
   \item Lawson Internship in Public Service Award
@@ -588,7 +602,7 @@ Choose one concentration:
 \end{itemize}
 \end{frame}
 
-\section{Success \& Support}
+\section{\textcolor{titanorange}{Success \& Support}}
 \begin{frame}{Keys to Graduate School Success}
 \begin{columns}[T,onlytextwidth]
   \column{0.5\textwidth}
@@ -620,7 +634,7 @@ Choose one concentration:
 \end{itemize}
 \end{frame}
 
-\section{Campus Resources}
+\section{\textcolor{titanorange}{Campus Resources}}
 \begin{frame}{Campus Resources Overview}
 \begin{itemize}
   \item Academic Support
@@ -687,7 +701,7 @@ Choose one concentration:
 \end{itemize}
 \end{frame}
 
-\section{Contact}
+\section{\textcolor{titanorange}{Contact}}
 \begin{frame}{Contact Information}
 \textbf{Division of Politics, Administration \& Justice}\\[-2pt]
 \begin{itemize}
@@ -700,16 +714,18 @@ Choose one concentration:
   \item Email: \href{mailto:dpadams@fullerton.edu}{dpadams@fullerton.edu}
   \item Appointments: \url{https://dadams.io/appointments}
 \end{itemize}
-\qrcode[height=1.2cm]{https://dadams.io/appointments}
+\begin{center}
+	\qrcode[height=1.2cm]{https://dadams.io/appointments}
+\end{center}
 
-	extbf{MPA Advisor -- Myung--Jung Kwon}\\[-2pt]
+\textbf{MPA Advisor -- Myung--Jung Kwon}\\[-2pt]
 \begin{itemize}
   \item Email: \href{mailto:mkwon@fullerton.edu}{mkwon@fullerton.edu}
 \end{itemize}
 \end{frame}
 
 \begin{frame}[standout]{Questions?}
-Q \& A
+\huge{Q \& A}
 \end{frame}
 
 \begin{frame}{Thank You for Attending}

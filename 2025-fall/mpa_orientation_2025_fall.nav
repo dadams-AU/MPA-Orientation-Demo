@@ -2,14 +2,14 @@
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\beamer@sectionpages {1}{1}}
 \headcommand {\beamer@subsectionpages {1}{1}}
-\headcommand {\sectionentry {1}{Welcome}{2}{Welcome}{0}}
+\headcommand {\sectionentry {1}{\textcolor {titanorange}{Welcome}}{2}{\textcolor {titanorange}{Welcome}}{0}}
 \headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
 \headcommand {\slideentry {1}{0}{2}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
 \headcommand {\beamer@sectionpages {2}{3}}
 \headcommand {\beamer@subsectionpages {2}{3}}
-\headcommand {\sectionentry {2}{Why CSUF}{4}{Why CSUF}{0}}
+\headcommand {\sectionentry {2}{\textcolor {titanorange}{Why CSUF}}{4}{\textcolor {titanorange}{Why CSUF}}{0}}
 \headcommand {\slideentry {2}{0}{1}{4/4}{}{0}}
 \headcommand {\beamer@framepages {4}{4}}
 \headcommand {\slideentry {2}{0}{2}{5/5}{}{0}}
@@ -18,14 +18,14 @@
 \headcommand {\beamer@framepages {6}{6}}
 \headcommand {\beamer@sectionpages {4}{6}}
 \headcommand {\beamer@subsectionpages {4}{6}}
-\headcommand {\sectionentry {3}{Mission \& Values}{7}{Mission \& Values}{0}}
+\headcommand {\sectionentry {3}{\textcolor {titanorange}{Mission \& Values}}{7}{\textcolor {titanorange}{Mission \& Values}}{0}}
 \headcommand {\slideentry {3}{0}{1}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
 \headcommand {\slideentry {3}{0}{2}{8/8}{}{0}}
 \headcommand {\beamer@framepages {8}{8}}
 \headcommand {\beamer@sectionpages {7}{8}}
 \headcommand {\beamer@subsectionpages {7}{8}}
-\headcommand {\sectionentry {4}{Faculty}{9}{Faculty}{0}}
+\headcommand {\sectionentry {4}{\textcolor {titanorange}{Faculty}}{9}{\textcolor {titanorange}{Faculty}}{0}}
 \headcommand {\slideentry {4}{0}{1}{9/9}{}{0}}
 \headcommand {\beamer@framepages {9}{9}}
 \headcommand {\slideentry {4}{0}{2}{10/10}{}{0}}
@@ -50,7 +50,7 @@
 \headcommand {\beamer@framepages {19}{19}}
 \headcommand {\beamer@sectionpages {9}{19}}
 \headcommand {\beamer@subsectionpages {9}{19}}
-\headcommand {\sectionentry {5}{Curriculum}{20}{Curriculum}{0}}
+\headcommand {\sectionentry {5}{\textcolor {titanorange}{Curriculum}}{20}{\textcolor {titanorange}{Curriculum}}{0}}
 \headcommand {\slideentry {5}{0}{1}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
 \headcommand {\slideentry {5}{0}{2}{21/21}{}{0}}
@@ -61,7 +61,7 @@
 \headcommand {\beamer@framepages {23}{23}}
 \headcommand {\beamer@sectionpages {20}{23}}
 \headcommand {\beamer@subsectionpages {20}{23}}
-\headcommand {\sectionentry {6}{Milestones}{24}{Milestones}{0}}
+\headcommand {\sectionentry {6}{\textcolor {titanorange}{Milestones}}{24}{\textcolor {titanorange}{Milestones}}{0}}
 \headcommand {\slideentry {6}{0}{1}{24/24}{}{0}}
 \headcommand {\beamer@framepages {24}{24}}
 \headcommand {\slideentry {6}{0}{2}{25/25}{}{0}}
@@ -80,7 +80,7 @@
 \headcommand {\beamer@framepages {31}{31}}
 \headcommand {\beamer@sectionpages {24}{31}}
 \headcommand {\beamer@subsectionpages {24}{31}}
-\headcommand {\sectionentry {7}{Scholarships \& Awards}{32}{Scholarships \& Awards}{0}}
+\headcommand {\sectionentry {7}{\textcolor {titanorange}{Scholarships \& Awards}}{32}{\textcolor {titanorange}{Scholarships \& Awards}}{0}}
 \headcommand {\slideentry {7}{0}{1}{32/32}{}{0}}
 \headcommand {\beamer@framepages {32}{32}}
 \headcommand {\slideentry {7}{0}{2}{33/33}{}{0}}
@@ -89,14 +89,14 @@
 \headcommand {\beamer@framepages {34}{34}}
 \headcommand {\beamer@sectionpages {32}{34}}
 \headcommand {\beamer@subsectionpages {32}{34}}
-\headcommand {\sectionentry {8}{Success \& Support}{35}{Success \& Support}{0}}
+\headcommand {\sectionentry {8}{\textcolor {titanorange}{Success \& Support}}{35}{\textcolor {titanorange}{Success \& Support}}{0}}
 \headcommand {\slideentry {8}{0}{1}{35/35}{}{0}}
 \headcommand {\beamer@framepages {35}{35}}
 \headcommand {\slideentry {8}{0}{2}{36/36}{}{0}}
 \headcommand {\beamer@framepages {36}{36}}
 \headcommand {\beamer@sectionpages {35}{36}}
 \headcommand {\beamer@subsectionpages {35}{36}}
-\headcommand {\sectionentry {9}{Campus Resources}{37}{Campus Resources}{0}}
+\headcommand {\sectionentry {9}{\textcolor {titanorange}{Campus Resources}}{37}{\textcolor {titanorange}{Campus Resources}}{0}}
 \headcommand {\slideentry {9}{0}{1}{37/37}{}{0}}
 \headcommand {\beamer@framepages {37}{37}}
 \headcommand {\slideentry {9}{0}{2}{38/38}{}{0}}
@@ -111,7 +111,7 @@
 \headcommand {\beamer@framepages {42}{42}}
 \headcommand {\beamer@sectionpages {37}{42}}
 \headcommand {\beamer@subsectionpages {37}{42}}
-\headcommand {\sectionentry {10}{Contact}{43}{Contact}{0}}
+\headcommand {\sectionentry {10}{\textcolor {titanorange}{Contact}}{43}{\textcolor {titanorange}{Contact}}{0}}
 \headcommand {\slideentry {10}{0}{1}{43/43}{}{0}}
 \headcommand {\beamer@framepages {43}{43}}
 \headcommand {\slideentry {10}{0}{2}{44/44}{}{0}}

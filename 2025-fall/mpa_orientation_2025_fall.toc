@@ -1,10 +1,10 @@
-\beamer@sectionintoc {1}{Welcome}{2}{0}{1}
-\beamer@sectionintoc {2}{Why CSUF}{4}{0}{2}
-\beamer@sectionintoc {3}{Mission \& Values}{7}{0}{3}
-\beamer@sectionintoc {4}{Faculty}{9}{0}{4}
-\beamer@sectionintoc {5}{Curriculum}{20}{0}{5}
-\beamer@sectionintoc {6}{Milestones}{24}{0}{6}
-\beamer@sectionintoc {7}{Scholarships \& Awards}{32}{0}{7}
-\beamer@sectionintoc {8}{Success \& Support}{35}{0}{8}
-\beamer@sectionintoc {9}{Campus Resources}{37}{0}{9}
-\beamer@sectionintoc {10}{Contact}{43}{0}{10}
+\beamer@sectionintoc {1}{\textcolor {titanorange}{Welcome}}{2}{0}{1}
+\beamer@sectionintoc {2}{\textcolor {titanorange}{Why CSUF}}{4}{0}{2}
+\beamer@sectionintoc {3}{\textcolor {titanorange}{Mission \& Values}}{7}{0}{3}
+\beamer@sectionintoc {4}{\textcolor {titanorange}{Faculty}}{9}{0}{4}
+\beamer@sectionintoc {5}{\textcolor {titanorange}{Curriculum}}{20}{0}{5}
+\beamer@sectionintoc {6}{\textcolor {titanorange}{Milestones}}{24}{0}{6}
+\beamer@sectionintoc {7}{\textcolor {titanorange}{Scholarships \& Awards}}{32}{0}{7}
+\beamer@sectionintoc {8}{\textcolor {titanorange}{Success \& Support}}{35}{0}{8}
+\beamer@sectionintoc {9}{\textcolor {titanorange}{Campus Resources}}{37}{0}{9}
+\beamer@sectionintoc {10}{\textcolor {titanorange}{Contact}}{43}{0}{10}
