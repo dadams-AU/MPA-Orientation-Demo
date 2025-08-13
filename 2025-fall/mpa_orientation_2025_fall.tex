@@ -19,6 +19,10 @@
   urlcolor=black
 }
 \urlstyle{same}
+\usepackage{etoolbox} % for \ifdefempty (already in TL)
+% print #1 followed by a paragraph break only if not empty
+\newcommand{\ShowIfNonempty}[1]{\ifdefempty{#1}{}{#1\par}}
+
 
 % --------------------
 % Fonts (LuaLaTeX/XeLaTeX preferred; pdfLaTeX falls back automatically)
@@ -63,6 +67,29 @@
 \setbeamerfont{frametitle}{size=\large,series=\bfseries}
 \setbeamerfont{block title}{series=\bfseries}
 
+% ---- Fix section break slides (fix black-on-black) ----
+\setbeamercolor{background canvas}{bg=white} % keep canvas white everywhere
+\setbeamercolor{standout}{bg=titanblue, fg=titanorange} % section/title slides with orange text
+\setbeamercolor{palette primary}{bg=titanblue, fg=titanorange} % for section pages
+\setbeamercolor{section title}{fg=titanorange} % explicitly set section title color
+\setbeamercolor{section page}{bg=titanblue, fg=titanorange} % section page colors
+
+% Additional metropolis-specific color overrides
+\setbeamercolor{section in toc}{fg=titanorange}
+\setbeamercolor{subsection in toc}{fg=titanorange}
+\setbeamercolor{title in head/foot}{fg=titanorange}
+\setbeamercolor{author in head/foot}{fg=titanorange}
+\setbeamercolor{date in head/foot}{fg=titanorange}
+
+% Override metropolis section page template colors
+\AtBeginDocument{
+  \setbeamercolor{section title}{fg=titanorange}
+  \setbeamercolor{palette primary}{fg=titanorange, bg=titanblue}
+}
+
+% (Optional) tweak section page style if you like:
+\metroset{sectionpage=progressbar} % or sectionpage=none/simple
+
 % --------------------
 % Title metadata
 % --------------------
@@ -75,50 +102,27 @@
 % Helpful utilities
 % --------------------
 % Section title slides
+% Force all section slides to use orange text on blue background and \huge size
 \AtBeginSection[]{
-  \begin{frame}[standout]
-    \insertsection
-  \end{frame}
+  {\setbeamercolor{background canvas}{bg=titanblue}%
+   \setbeamercolor{standout}{bg=titanblue, fg=titanorange}%
+   \setbeamercolor{section title}{fg=titanorange}%
+   \begin{frame}[standout]
+     \centering
+     {\huge\textcolor{titanorange}{\insertsection}}
+   \end{frame}}
 }
 
 % Uniform image height for faculty cards
 \newlength{\imageheight}
 \setlength{\imageheight}{3.4cm}
 
-% Reusable faculty profile macro
-% \FacultyProfile{Name}{Role/Notes}{Since + PhD}{Research bullets}{Courses bullets}{image path}
-\newcommand{\FacultyProfile}[6]{%
-\begin{frame}{#1}
-  \begin{columns}[T,onlytextwidth]
-    \column{0.66\textwidth}
-      \textbf{#1}\\[2pt]
-      #2\\[3pt]
-      {\footnotesize #3}
-      \vspace{0.5em}
-
-      \textbf{Research}
-      \begin{itemize}
-        #4
-      \end{itemize}
-
-      \textbf{Courses}
-      \begin{itemize}
-        #5
-      \end{itemize}
-
-    \column{0.34\textwidth}
-      \vspace*{0.25cm}
-      \includegraphics[height=\imageheight]{#6}
-  \end{columns}
-\end{frame}
-}
-
 % Compact two-column list frame
 \newenvironment{twocolbullets}
 {\begin{columns}[T,onlytextwidth]\column{0.5\textwidth}\begin{itemize}}
 {\end{itemize}\column{0.5\textwidth}\begin{itemize}\end{itemize}\end{columns}}
 
-% A small “key dates” helper
+% A small "key dates" helper
 \newcommand{\KeyDate}[2]{\textbf{#1:} #2\par}
 
 % --------------------
@@ -193,109 +197,251 @@ To be recognized for excellence in value-driven public service and community eng
 \end{columns}
 \end{frame}
 
-% --- Use the macro for each profile (easy to add/remove/reorder) ---
-\FacultyProfile
-  {David P. Adams, Ph.D.}
-  {Associate Professor \& MPA Director}
-  {At CSUF since 2016 \quad | \quad Ph.D., Auburn University}
-  {\item Public policy outcomes
-   \item Collaboration
-   \item Environmental \& energy policy
-   \item Environmental justice}
-  {\item Foundations of PA
-   \item Capstone Seminar
-   \item Collaborative Governance}
-  {images/adams.jpg}
+% Faculty profiles using individual frames instead of problematic macro
+\begin{frame}{David P. Adams, Ph.D.}
+\begin{columns}[T,onlytextwidth]
+  \column{0.66\textwidth}
+    \raggedright
+    {\large\bfseries David P. Adams, Ph.D.}\par
+    {Associate Professor \& MPA Director}\par
+    {\footnotesize At CSUF since 2016 \quad | \quad Ph.D., Auburn University}\par\vspace{0.4em}
 
-\FacultyProfile
-  {Shelly Arsneault, Ph.D.}
-  {Professor; Vice Chair of PAJ}
-  {At CSUF since 2002 \quad | \quad Ph.D., Michigan State University}
-  {\item Nonprofit management
-   \item Education policy}
-  {\item Foundations of PA
-   \item Nonprofit Management
-   \item Education Policy}
-  {images/arsneault.png}
+    \textbf{Research}
+    \begin{itemize}
+      \item Public policy outcomes
+      \item Collaboration
+      \item Environmental \& energy policy
+      \item Environmental justice
+    \end{itemize}
 
-\FacultyProfile
-  {Sean Angst, Ph.D.}
-  {}
-  {At CSUF since 2024 \quad | \quad Ph.D., USC Price}
-  {\item Housing policy
-   \item Community development
-   \item Racial justice}
-  {\item Administrative Research \& Analysis
-   \item Policy Analysis}
-  {images/angst.jpg}
+    \textbf{Courses}
+    \begin{itemize}
+      \item Foundations of PA
+      \item Capstone Seminar
+      \item Collaborative Governance
+    \end{itemize}
 
-\FacultyProfile
-  {Meriem Doucette, Ph.D.}
-  {Associate Professor}
-  {At CSUF since 2015 \quad | \quad Ph.D., University of Georgia}
-  {\item Organizational theory
-   \item Change management}
-  {\item Organizational Theory
-   \item Ethics
-   \item Organizational Development
-   \item Leadership}
-  {images/doucette.png}
+  \column{0.34\textwidth}
+    \vspace*{0.25cm}
+    \includegraphics[height=\imageheight]{images/adams.jpg}
+\end{columns}
+\end{frame}
 
-\FacultyProfile
-  {Elaine Frey, Ph.D.}
-  {}
-  {Ph.D., George Washington University}
-  {\item Environmental economics
-   \item Energy economics
-   \item Applied microeconomics}
-  {\item Environmental Policy
-   \item Administrative Research \& Analysis}
-  {images/frey.jpg}
+\begin{frame}{Shelly Arsneault, Ph.D.}
+\begin{columns}[T,onlytextwidth]
+  \column{0.66\textwidth}
+    \raggedright
+    {\large\bfseries Shelly Arsneault, Ph.D.}\par
+    {Professor; Vice Chair of PAJ}\par
+    {\footnotesize At CSUF since 2002 \quad | \quad Ph.D., Michigan State University}\par\vspace{0.4em}
 
-\FacultyProfile
-  {Sarah A. Hill, Ph.D.}
-  {Professor}
-  {At CSUF since 2007 \quad | \quad Ph.D., Caltech}
-  {\item Elections administration
-   \item Education policy}
-  {\item State \& Local Government
-   \item Public Policy
-   \item Diversity in Public Management}
-  {images/hill.jpg}
+    \textbf{Research}
+    \begin{itemize}
+      \item Nonprofit management
+      \item Education policy
+    \end{itemize}
 
-\FacultyProfile
-  {Myung-Jung “MJ” Kwon, Ph.D.}
-  {Professor; MPA Advisor}
-  {At CSUF since 2009 \quad | \quad Ph.D., Florida State University}
-  {\item Public sector innovation
-   \item E-government}
-  {\item Human Resources Management
-   \item Public Personnel Administration
-   \item Diversity in Public Management}
-  {images/kwon.jpg}
+    \textbf{Courses}
+    \begin{itemize}
+      \item Foundations of PA
+      \item Nonprofit Management
+      \item Education Policy
+    \end{itemize}
 
-\FacultyProfile
-  {Samuel B. Stone, Ph.D.}
-  {Professor}
-  {At CSUF since 2011 \quad | \quad Ph.D., Indiana University}
-  {\item Financial analysis
-   \item Fiscal policy
-   \item Local government management}
-  {\item Public Finance
-   \item Public Budgeting
-   \item Local Government Management}
-  {images/stone.jpg}
+  \column{0.34\textwidth}
+    \vspace*{0.25cm}
+    \includegraphics[height=\imageheight]{images/arsneault.png}
+\end{columns}
+\end{frame}
 
-\FacultyProfile
-  {Scott Spitzer, Ph.D.}
-  {Affiliated Faculty; Professor}
-  {At CSUF since 2006 \quad | \quad Ph.D., Columbia University}
-  {\item Urban politics
-   \item Racial politics
-   \item Social welfare}
-  {\item Urban Politics
-   \item Metropolitan Politics \& Policy}
-  {images/spitzer.png}
+\begin{frame}{Sean Angst, Ph.D.}
+\begin{columns}[T,onlytextwidth]
+  \column{0.66\textwidth}
+    \raggedright
+    {\large\bfseries Sean Angst, Ph.D.}\par
+    {\footnotesize At CSUF since 2024 \quad | \quad Ph.D., USC Price}\par\vspace{0.4em}
+
+    \textbf{Research}
+    \begin{itemize}
+      \item Housing policy
+      \item Community development
+      \item Racial justice
+    \end{itemize}
+
+    \textbf{Courses}
+    \begin{itemize}
+      \item Administrative Research \& Analysis
+      \item Policy Analysis
+    \end{itemize}
+
+  \column{0.34\textwidth}
+    \vspace*{0.25cm}
+    \includegraphics[height=\imageheight]{images/angst.jpg}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Meriem Doucette, Ph.D.}
+\begin{columns}[T,onlytextwidth]
+  \column{0.66\textwidth}
+    \raggedright
+    {\large\bfseries Meriem Doucette, Ph.D.}\par
+    {Associate Professor}\par
+    {\footnotesize At CSUF since 2015 \quad | \quad Ph.D., University of Georgia}\par\vspace{0.4em}
+
+    \textbf{Research}
+    \begin{itemize}
+      \item Organizational theory
+      \item Change management
+    \end{itemize}
+
+    \textbf{Courses}
+    \begin{itemize}
+      \item Organizational Theory
+      \item Ethics
+      \item Organizational Development
+      \item Leadership
+    \end{itemize}
+
+  \column{0.34\textwidth}
+    \vspace*{0.25cm}
+    \includegraphics[height=\imageheight]{images/doucette.png}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Elaine Frey, Ph.D.}
+\begin{columns}[T,onlytextwidth]
+  \column{0.66\textwidth}
+    \raggedright
+    {\large\bfseries Elaine Frey, Ph.D.}\par
+    {\footnotesize Ph.D., George Washington University}\par\vspace{0.4em}
+
+    \textbf{Research}
+    \begin{itemize}
+      \item Environmental economics
+      \item Energy economics
+      \item Applied microeconomics
+    \end{itemize}
+
+    \textbf{Courses}
+    \begin{itemize}
+      \item Environmental Policy
+      \item Administrative Research \& Analysis
+    \end{itemize}
+
+  \column{0.34\textwidth}
+    \vspace*{0.25cm}
+    \includegraphics[height=\imageheight]{images/frey.jpg}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Sarah A. Hill, Ph.D.}
+\begin{columns}[T,onlytextwidth]
+  \column{0.66\textwidth}
+    \raggedright
+    {\large\bfseries Sarah A. Hill, Ph.D.}\par
+    {Professor}\par
+    {\footnotesize At CSUF since 2007 \quad | \quad Ph.D., Caltech}\par\vspace{0.4em}
+
+    \textbf{Research}
+    \begin{itemize}
+      \item Elections administration
+      \item Education policy
+    \end{itemize}
+
+    \textbf{Courses}
+    \begin{itemize}
+      \item State \& Local Government
+      \item Public Policy
+      \item Diversity in Public Management
+    \end{itemize}
+
+  \column{0.34\textwidth}
+    \vspace*{0.25cm}
+    \includegraphics[height=\imageheight]{images/hill.jpg}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Myung--Jung ``MJ'' Kwon, Ph.D.}
+\begin{columns}[T,onlytextwidth]
+  \column{0.66\textwidth}
+    \raggedright
+  {\large\bfseries Myung--Jung ``MJ'' Kwon, Ph.D.}\par
+    {Professor; MPA Advisor}\par
+    {\footnotesize At CSUF since 2009 \quad | \quad Ph.D., Florida State University}\par\vspace{0.4em}
+
+    \textbf{Research}
+    \begin{itemize}
+      \item Public sector innovation
+      \item E-government
+    \end{itemize}
+
+    \textbf{Courses}
+    \begin{itemize}
+      \item Human Resources Management
+      \item Public Personnel Administration
+      \item Diversity in Public Management
+    \end{itemize}
+
+  \column{0.34\textwidth}
+    \vspace*{0.25cm}
+    \includegraphics[height=\imageheight]{images/kwon.jpg}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Samuel B. Stone, Ph.D.}
+\begin{columns}[T,onlytextwidth]
+  \column{0.66\textwidth}
+    \raggedright
+    {\large\bfseries Samuel B. Stone, Ph.D.}\par
+    {Professor}\par
+    {\footnotesize At CSUF since 2011 \quad | \quad Ph.D., Indiana University}\par\vspace{0.4em}
+
+    \textbf{Research}
+    \begin{itemize}
+      \item Financial analysis
+      \item Fiscal policy
+      \item Local government management
+    \end{itemize}
+
+    \textbf{Courses}
+    \begin{itemize}
+      \item Public Finance
+      \item Public Budgeting
+      \item Local Government Management
+    \end{itemize}
+
+  \column{0.34\textwidth}
+    \vspace*{0.25cm}
+    \includegraphics[height=\imageheight]{images/stone.jpg}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Scott Spitzer, Ph.D.}
+\begin{columns}[T,onlytextwidth]
+  \column{0.66\textwidth}
+    \raggedright
+    {\large\bfseries Scott Spitzer, Ph.D.}\par
+    {Affiliated Faculty; Professor}\par
+    {\footnotesize At CSUF since 2006 \quad | \quad Ph.D., Columbia University}\par\vspace{0.4em}
+
+    \textbf{Research}
+    \begin{itemize}
+      \item Urban politics
+      \item Racial politics
+      \item Social welfare
+    \end{itemize}
+
+    \textbf{Courses}
+    \begin{itemize}
+      \item Urban Politics
+      \item Metropolitan Politics \& Policy
+    \end{itemize}
+
+  \column{0.34\textwidth}
+    \vspace*{0.25cm}
+    \includegraphics[height=\imageheight]{images/spitzer.png}
+\end{columns}
+\end{frame}
 
 \section{Curriculum}
 \begin{frame}{Academic Information}
@@ -556,7 +702,7 @@ Choose one concentration:
 \end{itemize}
 \qrcode[height=1.2cm]{https://dadams.io/appointments}
 
-\textbf{MPA Advisor – Myung-Jung Kwon}\\[-2pt]
+	extbf{MPA Advisor -- Myung--Jung Kwon}\\[-2pt]
 \begin{itemize}
   \item Email: \href{mailto:mkwon@fullerton.edu}{mkwon@fullerton.edu}
 \end{itemize}
