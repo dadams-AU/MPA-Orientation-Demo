@@ -1,0 +1,10 @@
+\beamer@sectionintoc {1}{Welcome}{2}{0}{1}
+\beamer@sectionintoc {2}{Why CSUF}{4}{0}{2}
+\beamer@sectionintoc {3}{Mission \& Values}{7}{0}{3}
+\beamer@sectionintoc {4}{Faculty}{9}{0}{4}
+\beamer@sectionintoc {5}{Curriculum}{21}{0}{5}
+\beamer@sectionintoc {6}{Milestones}{25}{0}{6}
+\beamer@sectionintoc {7}{Scholarships \& Awards}{33}{0}{7}
+\beamer@sectionintoc {8}{Success \& Support}{36}{0}{8}
+\beamer@sectionintoc {9}{Campus Resources}{38}{0}{9}
+\beamer@sectionintoc {10}{Contact}{44}{0}{10}
