@@ -1,1 +1,16 @@
 
+# apple config like DS.Store
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# TeX
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.out
+*.pdf
+*.toc
+
