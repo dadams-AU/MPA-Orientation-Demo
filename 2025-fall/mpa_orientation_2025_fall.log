@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025/Homebrew)  (format=lualatex 2025.3.7)  15 AUG 2025 21:27
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025/Homebrew)  (format=lualatex 2025.3.7)  15 AUG 2025 21:32
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Volumes/DockDrive/Repos/MPA-Orientation/2025-fall/mpa_orientation_2025_fall.tex
@@ -1396,15 +1396,14 @@ LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/m/it' will be
 [39
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [40
 
 ]
 
-[41]
+[41
+
+]
 
 [42
 
@@ -1456,7 +1455,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <images/PUBLIC-ADMINISTRATION-color.png, id=426, 457.71pt x 303.1325pt>
 File: images/PUBLIC-ADMINISTRATION-color.png Graphic file (type png)
 <use images/PUBLIC-ADMINISTRATION-color.png>
-Package luatex.def Info: images/PUBLIC-ADMINISTRATION-color.png  used on input line 816.
+Package luatex.def Info: images/PUBLIC-ADMINISTRATION-color.png  used on input line 821.
 (luatex.def)             Requested size: 128.88426pt x 85.35826pt.
 
 
@@ -1482,16 +1481,16 @@ Package rerunfilecheck Info: File `mpa_orientation_2025_fall.out' has not change
 )
 
 Here is how much of LuaTeX's memory you used:
- 32783 strings out of 475506
+ 32793 strings out of 475506
  125031,1373583 words of node,token memory allocated
  3544 words of node memory still in use:
    49 hlist, 10 vlist, 7 rule, 13 disc, 7 local_par, 81 glue, 23 kern, 15 penalty, 97 glyph, 154 attribute, 74 glue_spec, 154 attribute_list, 4 write, 48 pdf_literal, 1 pdf_action, 34 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
    avail lists: 1:11,2:736,3:441,4:415,5:331,6:75,7:2311,8:59,9:460,10:14,11:227
- 54731 multiletter control sequences out of 65536+600000
+ 54741 multiletter control sequences out of 65536+600000
  105 fonts using 16224967 bytes
  128i,15n,139p,1985b,1184s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-italic.otf></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on mpa_orientation_2025_fall.pdf (54 pages, 6373741 bytes).
+Output written on mpa_orientation_2025_fall.pdf (54 pages, 6373786 bytes).
 
 PDF statistics: 464 PDF objects out of 1000 (max. 8388607)
  371 compressed objects within 4 object streams
