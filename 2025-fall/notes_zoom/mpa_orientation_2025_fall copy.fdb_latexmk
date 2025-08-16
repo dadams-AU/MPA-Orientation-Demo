@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1755383103.03126 "/home/dadams/Repos/MPA-Orientation/2025-fall/notes_zoom/mpa_orientation_2025_fall.tex" "mpa_orientation_2025_fall.pdf" "mpa_orientation_2025_fall" 1755383106.25666 0
+["lualatex"] 1755383199.61313 "/home/dadams/Repos/MPA-Orientation/2025-fall/notes_zoom/mpa_orientation_2025_fall copy.tex" "mpa_orientation_2025_fall copy.pdf" "mpa_orientation_2025_fall copy" 1755383202.79944 0
   "/home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/firamono-bold.luc" 1755382104.08929 182214 829231a2c30c06c8cc90c11d0d00a7b9 ""
   "/home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/firamono-boldoblique.luc" 1755382104.19429 183852 a2d7a22ee2744266770290f9d6a4388f ""
   "/home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/firamono-medium.luc" 1755382104.14129 182725 27224749d640afb9be6cc6ad0752cf03 ""
@@ -18,7 +18,7 @@
   "/home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/texgyreheros-regular.luc" 1753572309.46349 213475 a617384da1c662797a32e9fc2e1c9c06 ""
   "/home/dadams/.texlive2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1755382864.98029 20497 fef17c0e88b02de55eae549a5d37b75e ""
   "/home/dadams/.texlive2025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1753571391.74456 665521 0fa5dab662f35692c76652850a9ba123 ""
-  "/home/dadams/Repos/MPA-Orientation/2025-fall/notes_zoom/mpa_orientation_2025_fall.tex" 1755383100.68082 23177 b651e9953b4e666c6344d48c6a26277a ""
+  "/home/dadams/Repos/MPA-Orientation/2025-fall/notes_zoom/mpa_orientation_2025_fall copy.tex" 1755383192.74891 23177 b651e9953b4e666c6344d48c6a26277a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf" 1257299502 135204 f5f20609880fff666e17267854df804d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-italic.otf" 1257299502 139208 418e1daec3a0c0b2d8ebb349c646ec22 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf" 1257299502 133600 46896831ad260afebc87cd85a7ea159a ""
@@ -315,16 +315,16 @@
   "images/kwon.jpg" 1755382137.09234 51307 490ee3ec9dc3df25e9bdcd26a2cec630 ""
   "images/spitzer.png" 1755382137.09255 38006 9d81b341774d211af04c9c7363d914fa ""
   "images/stone.jpg" 1755382137.0928 77350 88de429de12332a4d6b8aba48665791a ""
-  "mpa_orientation_2025_fall.aux" 1755383106.05386 11352 cb10a166e3d8ff8931c9531ef52564fb "lualatex"
-  "mpa_orientation_2025_fall.nav" 1755383106.05486 7339 f942f7a4f3e96f0ad15e149d300c62d3 "lualatex"
-  "mpa_orientation_2025_fall.out" 1755383106.05486 1505 b210f22067621286faf8558a154abc0e "lualatex"
-  "mpa_orientation_2025_fall.tex" 1755383100.68082 23177 b651e9953b4e666c6344d48c6a26277a ""
+  "mpa_orientation_2025_fall copy.aux" 1755383202.60048 11352 cb10a166e3d8ff8931c9531ef52564fb "lualatex"
+  "mpa_orientation_2025_fall copy.nav" 1755383202.60148 7339 f942f7a4f3e96f0ad15e149d300c62d3 "lualatex"
+  "mpa_orientation_2025_fall copy.out" 1755383202.60148 1505 b210f22067621286faf8558a154abc0e "lualatex"
+  "mpa_orientation_2025_fall copy.tex" 1755383192.74891 23177 b651e9953b4e666c6344d48c6a26277a ""
   (generated)
-  "mpa_orientation_2025_fall.aux"
-  "mpa_orientation_2025_fall.log"
-  "mpa_orientation_2025_fall.nav"
-  "mpa_orientation_2025_fall.out"
-  "mpa_orientation_2025_fall.pdf"
-  "mpa_orientation_2025_fall.snm"
-  "mpa_orientation_2025_fall.toc"
+  "mpa_orientation_2025_fall copy.aux"
+  "mpa_orientation_2025_fall copy.log"
+  "mpa_orientation_2025_fall copy.nav"
+  "mpa_orientation_2025_fall copy.out"
+  "mpa_orientation_2025_fall copy.pdf"
+  "mpa_orientation_2025_fall copy.snm"
+  "mpa_orientation_2025_fall copy.toc"
   (rewritten before read)

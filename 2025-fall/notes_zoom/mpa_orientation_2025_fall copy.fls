@@ -1,7 +1,7 @@
 PWD /home/dadams/Repos/MPA-Orientation/2025-fall/notes_zoom
 INPUT /usr/local/texlive/2025/texmf-var/web2c/luahbtex/lualatex.fmt
-INPUT /home/dadams/Repos/MPA-Orientation/2025-fall/notes_zoom/mpa_orientation_2025_fall.tex
-OUTPUT mpa_orientation_2025_fall.log
+INPUT /home/dadams/Repos/MPA-Orientation/2025-fall/notes_zoom/mpa_orientation_2025_fall copy.tex
+OUTPUT mpa_orientation_2025_fall copy.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tex-ini-files/lualatexquotejobname.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ltluatex.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/luaotfload-main.lua
@@ -275,23 +275,22 @@ INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/texgyre
 INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/texgyreheros-bolditalic.luc
 INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/texgyreheros-bold.luc
 INPUT /home/dadams/.texlive2025/texmf-var/luatex-cache/generic/fonts/otl/texgyreheros-italic.luc
-INPUT ./mpa_orientation_2025_fall.aux
-OUTPUT mpa_orientation_2025_fall.aux
+INPUT ./mpa_orientation_2025_fall copy.aux
+OUTPUT mpa_orientation_2025_fall copy.aux
 INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT ./mpa_orientation_2025_fall.out
-INPUT ./mpa_orientation_2025_fall.out
-OUTPUT mpa_orientation_2025_fall.pdf
-INPUT ./mpa_orientation_2025_fall.out
-OUTPUT mpa_orientation_2025_fall.out
+INPUT ./mpa_orientation_2025_fall copy.out
+INPUT ./mpa_orientation_2025_fall copy.out
+OUTPUT mpa_orientation_2025_fall copy.pdf
+OUTPUT mpa_orientation_2025_fall copy.out
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
-INPUT ./mpa_orientation_2025_fall.nav
+INPUT ./mpa_orientation_2025_fall copy.nav
 INPUT ./images/PUBLIC-ADMINISTRATION-color2.png
 INPUT ./images/PUBLIC-ADMINISTRATION-color2.png
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -359,9 +358,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT ./images/PUBLIC-ADMINISTRATION-color.png
 INPUT ./images/PUBLIC-ADMINISTRATION-color.png
-OUTPUT mpa_orientation_2025_fall.nav
-OUTPUT mpa_orientation_2025_fall.toc
-OUTPUT mpa_orientation_2025_fall.snm
-INPUT ./mpa_orientation_2025_fall.aux
-INPUT ./mpa_orientation_2025_fall.out
+OUTPUT mpa_orientation_2025_fall copy.nav
+OUTPUT mpa_orientation_2025_fall copy.toc
+OUTPUT mpa_orientation_2025_fall copy.snm
+INPUT ./mpa_orientation_2025_fall copy.aux
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
