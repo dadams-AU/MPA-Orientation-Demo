@@ -3,6 +3,13 @@
 
 \documentclass[10pt]{beamer}
 \usetheme[numbering=fraction,progressbar=frametitle]{metropolis}
+% Handout mode toggle
+\newif\ifhandout
+\ifhandout
+  \documentclass[handout]{beamer}
+  \usepackage{pgfpages}
+  \pgfpagesuselayout{4 on 1}[letterpaper, landscape]
+\fi
 
 % --------------------
 % Packages
@@ -147,20 +154,53 @@
 
 \section{\textcolor{titanorange}{Welcome}}
 \begin{frame}{Agenda}
-\begin{itemize}
-  \item Welcome and Program Overview
-  \item Introductions
-  \item Program Structure and Requirements
-  \item Faculty Profiles
-  \item Academic Information
-  \item Program Resources and Scholarships
-  \item Campus Resources
-  \item Q\&A
-\end{itemize}
+\begin{columns}[T,totalwidth=\textwidth]
+  \begin{column}{0.33\textwidth}
+    \textbf{Large Group}
+    \begin{itemize}\setlength{\itemsep}{2pt}
+      \item Welcome and Introductions
+      \item Why CSUF?
+      \item Mission, Vision, Values
+      \item Public Administration Student Association (PASA)
+    \end{itemize}
+  \end{column}
+
+  \begin{column}{0.33\textwidth}
+    \textbf{Breakouts}
+    \begin{enumerate}\setlength{\itemsep}{2pt}
+      \item \textbf{New Students}
+        \begin{itemize}\setlength{\itemsep}{1pt}
+          \item Faculty Profiles
+          \item Curriculum
+          \item Milestones
+          \item Scholarships and Awards
+        \end{itemize}
+      \item \textbf{Family, Alums, Current Students}
+        \begin{itemize}\setlength{\itemsep}{1pt}
+          \item Supporting your MPA Student
+          \item Navigating Grad School
+          \item Success Strategies
+        \end{itemize}
+    \end{enumerate}
+  \end{column}
+
+  \begin{column}{0.33\textwidth}
+    \textbf{Large Group}
+    \begin{itemize}\setlength{\itemsep}{2pt}
+      \item Success and Support
+      \item Campus Resources
+      \item Contact Information
+      \item Large Group Q\&A
+    \end{itemize}
+  \end{column}
+\end{columns}
 \end{frame}
+
+\section{\textcolor{titanorange}{Introductions}}
 
 \section{\textcolor{titanorange}{Why CSUF}}
 \begin{frame}{Program by the Numbers}
+\begin{Large}
 \begin{itemize}
   \item \textbf{1968:} Year the program began awarding degrees
   \item \textbf{1:} The only public MPA program in Orange County
@@ -169,31 +209,74 @@
   \item \textbf{4:} Concentrations offered
   \item \textbf{3 years:} Typical time to degree
 \end{itemize}
+\end{Large}
 \end{frame}
 
 \begin{frame}{The Value of a CSUF MPA}
+\begin{Large}
 \begin{itemize}
   \item \#1: Most selective public MPA program in Southern California
   \item \textbf{13.3}: lowest student--faculty ratio among public MPAs in SoCal
   \item \textbf{1,200+} alumni across government, nonprofit, and private sectors
   \item NASPAA accredited continuously since the 1980s
+    \begin{itemize}
+      \item Reaccredited for 6 years in 2025
+      \item Validates program's commitment to public service
+    \end{itemize}
 \end{itemize}
+\end{Large}
 \end{frame}
 
-\section{\textcolor{titanorange}{Mission \& Values}}
-\begin{frame}{Our Mission}
+
+\section{\textcolor{titanorange}{Mission, Vision, Values}}
+
+\begin{frame}{Our Mission and Vision}
 \textbf{Mission}\\
 We prepare leaders to address complex social issues, uphold democratic values, and foster ethical, equitable, and inclusive public service in Orange County and beyond.
 
 \vspace{0.8em}
 \textbf{Vision}\\
 To be recognized for excellence in value-driven public service and community engagement.
+\end{frame}
 
-\vspace{0.8em}
+\begin{frame}{Our Values}
 \textbf{Values}
-\begin{itemize}
-  \item Accountability \quad \item Ethics \quad \item Collaboration \quad \item Lifelong Learning
-\end{itemize}
+\begin{description}
+  \item[Accountability] Promoting democratic transparency, responsiveness, and evidence-informed decision-making to uphold public trust and integrity.
+  \item[Ethics] Advancing integrity, fairness, and service to the public good by fostering ethical reasoning and critical awareness in public administration.
+  \item[Collaboration] Cultivating collaborative skills for cross-sector partnerships, networked governance, and inclusive stakeholder engagement.
+  \item[Lifelong Learning] Instilling habits of continuous learning, reflective practice, and professional development to support adaptive leaders and long-term impact.
+\end{description}
+\end{frame}
+
+\section{\textcolor{titanorange}{Public Administration Student Association (PASA)}}
+
+\begin{frame}{Public Administration Student Association (PASA)}
+  \centering
+  \includegraphics[width=\textwidth]{images/join_PASA.png}
+\end{frame}
+
+\section{\textcolor{titanorange}{Breakout Groups}}
+
+\begin{frame}{Breakout Groups}
+\begin{columns}[T,onlytextwidth]
+  \column{0.45\textwidth}
+  \textbf{Breakout Group 1: New Students}
+  \begin{itemize}
+    \item Program structure
+    \item Concentrations
+    \item Milestones
+  \end{itemize}
+
+  \column{0.55\textwidth}
+  \textbf{Breakout Group 2: Family, Alums, Current Students}
+  \begin{itemize}
+    \item Supporting your MPA Student
+    \item Understanding the program
+    \item Navigating Grad School
+    \item Success Strategies
+  \end{itemize}
+\end{columns}
 \end{frame}
 
 \section{\textcolor{titanorange}{Faculty}}
@@ -460,17 +543,6 @@ To be recognized for excellence in value-driven public service and community eng
 \end{frame}
 
 \section{\textcolor{titanorange}{Curriculum}}
-\begin{frame}{Academic Information}
-\begin{itemize}
-  \item Program Structure
-  \item Concentrations
-  \item Program Milestones
-  \item Scholarships \& Awards
-  \item Graduation Awards
-  \item Keys to Graduate School Success
-  \item Campus Resources
-\end{itemize}
-\end{frame}
 
 \begin{frame}{Program Structure}
 \begin{itemize}
@@ -609,6 +681,7 @@ Choose one concentration:
 \end{itemize}
 \end{frame}
 
+\
 \section{\textcolor{titanorange}{Success \& Support}}
 \begin{frame}{Keys to Graduate School Success}
 \begin{columns}[T,onlytextwidth]
@@ -641,6 +714,10 @@ Choose one concentration:
 \end{itemize}
 \end{frame}
 
+\section{\textcolor{titanorange}{Q \& A}}
+
+\section{\textcolor{titanorange}{End of Breakout}}
+
 \section{\textcolor{titanorange}{Campus Resources}}
 \begin{frame}{Campus Resources Overview}
 \begin{itemize}
@@ -662,7 +739,7 @@ Choose one concentration:
 \textbf{Graduate Support}
 \begin{itemize}
   \item Graduate Studies \small(\url{https://www.fullerton.edu/graduate})
-  \item Grad Student Success Center \small(\url{https://www.fullerton.edu/graduate/gssc})
+  \item Graduate Studies Center (GSC) \small(\url{https://www.fullerton.edu/graduate/gsc})
 \end{itemize}
 \end{frame}
 
@@ -702,7 +779,7 @@ Choose one concentration:
   \item Titan Dreamers Resource Center \small(\url{https://www.fullerton.edu/tdrc})
 \end{itemize}
 
-\textbf{Access}
+\textbf{Parking}
 \begin{itemize}
   \item Parking \& Transportation \small(\url{https://parking.fullerton.edu})
 \end{itemize}
@@ -710,29 +787,26 @@ Choose one concentration:
 
 \section{\textcolor{titanorange}{Contact}}
 \begin{frame}{Contact Information}
-\textbf{Division of Politics, Administration \& Justice}\\[-2pt]
+\textbf{MPA Support Staff}\\[-2pt]
 \begin{itemize}
-  \item Email: \href{mailto:pajdiv@fullerton.edu}{pajdiv@fullerton.edu}
+  \item Email: \href{mailto:mpaprogram@fullerton.edu}{mpaprogram@fullerton.edu}
   \item Phone: 657--278--3521
+\end{itemize}
+
+\textbf{MPA Advisor -- Myung--Jung Kwon}\\[-2pt]
+\begin{itemize}
+  \item Email: \href{mailto:mpaadvisor@fullerton.edu}{mpaadvisor@fullerton.edu}
 \end{itemize}
 
 \textbf{MPA Director -- David P. Adams}\\[-2pt]
 \begin{itemize}
   \item Email: \href{mailto:dpadams@fullerton.edu}{dpadams@fullerton.edu}
-  \item Appointments: \url{https://dadams.io/appointments}
-\end{itemize}
-\begin{center}
-	\qrcode[height=1.2cm]{https://dadams.io/appointments}
-\end{center}
-
-\textbf{MPA Advisor -- Myung--Jung Kwon}\\[-2pt]
-\begin{itemize}
-  \item Email: \href{mailto:mkwon@fullerton.edu}{mkwon@fullerton.edu}
+  \item Make appointments: \url{https://dadams.io/appointments}
 \end{itemize}
 \end{frame}
 
 \begin{frame}[standout]{Questions?}
-\huge{Q \& A}
+\huge{Large Group Q \& A}
 \end{frame}
 
 \begin{frame}{Thank You for Attending}
