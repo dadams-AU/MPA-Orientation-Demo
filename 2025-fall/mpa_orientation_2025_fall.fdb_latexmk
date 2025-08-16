@@ -1,6 +1,6 @@
 # Fdb version 4
-["lualatex"] 1755317504.88905 "/Volumes/DockDrive/Repos/MPA-Orientation/2025-fall/mpa_orientation_2025_fall.tex" "mpa_orientation_2025_fall.pdf" "mpa_orientation_2025_fall" 1755317507.44834 0
-  "/Volumes/DockDrive/Repos/MPA-Orientation/2025-fall/mpa_orientation_2025_fall.tex" 1755317504.62609 24303 533be6bb24319e5fb3123e3fe9cf4d2a ""
+["lualatex"] 1755318462.90246 "/Volumes/DockDrive/Repos/MPA-Orientation/2025-fall/mpa_orientation_2025_fall.tex" "mpa_orientation_2025_fall.pdf" "mpa_orientation_2025_fall" 1755318465.39373 0
+  "/Volumes/DockDrive/Repos/MPA-Orientation/2025-fall/mpa_orientation_2025_fall.tex" 1755318462.69569 24342 06f55029f42f0348c8187b1e8cc3bd23 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1741388039 5466553 2748998d7db8078826afa1f272036265 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf" 1741388039 135204 f5f20609880fff666e17267854df804d ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-italic.otf" 1741388039 139208 418e1daec3a0c0b2d8ebb349c646ec22 ""
@@ -316,10 +316,10 @@
   "images/kwon.jpg" 1755055609.82624 51307 490ee3ec9dc3df25e9bdcd26a2cec630 ""
   "images/spitzer.png" 1755055609.82752 38006 9d81b341774d211af04c9c7363d914fa ""
   "images/stone.jpg" 1755055609.8286 77350 88de429de12332a4d6b8aba48665791a ""
-  "mpa_orientation_2025_fall.aux" 1755317507.31649 12958 2fd97e3abadd3bbd553fc04c955a661d "lualatex"
-  "mpa_orientation_2025_fall.nav" 1755317507.3178 8354 8e0b0e8f8dc46de0c88c742476eef743 "lualatex"
-  "mpa_orientation_2025_fall.out" 1755317507.31759 1833 88c31dc0b206a8f5e1617ed59fbd1989 "lualatex"
-  "mpa_orientation_2025_fall.tex" 1755317504.62609 24303 533be6bb24319e5fb3123e3fe9cf4d2a ""
+  "mpa_orientation_2025_fall.aux" 1755318465.25754 12958 2fd97e3abadd3bbd553fc04c955a661d "lualatex"
+  "mpa_orientation_2025_fall.nav" 1755318465.26328 8354 8e0b0e8f8dc46de0c88c742476eef743 "lualatex"
+  "mpa_orientation_2025_fall.out" 1755318465.26299 1833 88c31dc0b206a8f5e1617ed59fbd1989 "lualatex"
+  "mpa_orientation_2025_fall.tex" 1755318462.69569 24342 06f55029f42f0348c8187b1e8cc3bd23 ""
   (generated)
   "mpa_orientation_2025_fall.aux"
   "mpa_orientation_2025_fall.log"

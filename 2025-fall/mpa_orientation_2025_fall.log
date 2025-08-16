@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025/Homebrew)  (format=lualatex 2025.3.7)  15 AUG 2025 21:11
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025/Homebrew)  (format=lualatex 2025.3.7)  15 AUG 2025 21:27
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Volumes/DockDrive/Repos/MPA-Orientation/2025-fall/mpa_orientation_2025_fall.tex
@@ -1205,7 +1205,7 @@ LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/m/it' will be
 <images/join_PASA.png, id=146, 1445.4pt x 813.0375pt>
 File: images/join_PASA.png Graphic file (type png)
 <use images/join_PASA.png>
-Package luatex.def Info: images/join_PASA.png  used on input line 257.
+Package luatex.def Info: images/join_PASA.png  used on input line 256.
 (luatex.def)             Requested size: 307.28987pt x 172.85191pt.
 
 
@@ -1227,10 +1227,10 @@ Package luatex.def Info: images/join_PASA.png  used on input line 257.
 <images/gordon_hall.jpg, id=172, 964.038pt x 541.587pt>
 File: images/gordon_hall.jpg Graphic file (type jpg)
 <use images/gordon_hall.jpg>
-Package luatex.def Info: images/gordon_hall.jpg  used on input line 295.
+Package luatex.def Info: images/gordon_hall.jpg  used on input line 294.
 (luatex.def)             Requested size: 172.19545pt x 96.73918pt.
 
-Overfull \hbox (61.57092pt too wide) in paragraph at lines 295--295
+Overfull \hbox (61.57092pt too wide) in paragraph at lines 294--294
 [][]  
  []
 
@@ -1240,11 +1240,11 @@ Overfull \hbox (61.57092pt too wide) in paragraph at lines 295--295
 
 <./images/gordon_hall.jpg>]
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 325.
+(Font)              scaled to size 7.68005pt on input line 324.
 <images/adams.jpg, id=178, 200.75pt x 200.75pt>
 File: images/adams.jpg Graphic file (type jpg)
 <use images/adams.jpg>
-Package luatex.def Info: images/adams.jpg  used on input line 325.
+Package luatex.def Info: images/adams.jpg  used on input line 324.
 (luatex.def)             Requested size: 96.74179pt x 96.73918pt.
 
 
@@ -1254,7 +1254,7 @@ Package luatex.def Info: images/adams.jpg  used on input line 325.
 <images/arsneault.png, id=184, 274.02374pt x 361.35pt>
 File: images/arsneault.png Graphic file (type png)
 <use images/arsneault.png>
-Package luatex.def Info: images/arsneault.png  used on input line 352.
+Package luatex.def Info: images/arsneault.png  used on input line 351.
 (luatex.def)             Requested size: 73.3602pt x 96.73918pt.
 
 
@@ -1264,7 +1264,7 @@ Package luatex.def Info: images/arsneault.png  used on input line 352.
 <images/angst.jpg, id=191, 427.5975pt x 642.4pt>
 File: images/angst.jpg Graphic file (type jpg)
 <use images/angst.jpg>
-Package luatex.def Info: images/angst.jpg  used on input line 379.
+Package luatex.def Info: images/angst.jpg  used on input line 378.
 (luatex.def)             Requested size: 64.39131pt x 96.73918pt.
 
 
@@ -1274,7 +1274,7 @@ Package luatex.def Info: images/angst.jpg  used on input line 379.
 <images/doucette.png, id=197, 395.4775pt x 399.4925pt>
 File: images/doucette.png Graphic file (type png)
 <use images/doucette.png>
-Package luatex.def Info: images/doucette.png  used on input line 407.
+Package luatex.def Info: images/doucette.png  used on input line 406.
 (luatex.def)             Requested size: 95.7674pt x 96.73918pt.
 
 
@@ -1284,7 +1284,7 @@ Package luatex.def Info: images/doucette.png  used on input line 407.
 <images/frey.jpg, id=204, 598.235pt x 671.50874pt>
 File: images/frey.jpg Graphic file (type jpg)
 <use images/frey.jpg>
-Package luatex.def Info: images/frey.jpg  used on input line 434.
+Package luatex.def Info: images/frey.jpg  used on input line 433.
 (luatex.def)             Requested size: 86.18045pt x 96.73918pt.
 
 
@@ -1294,7 +1294,7 @@ Package luatex.def Info: images/frey.jpg  used on input line 434.
 <images/hill.jpg, id=211, 172.645pt x 230.8625pt>
 File: images/hill.jpg Graphic file (type jpg)
 <use images/hill.jpg>
-Package luatex.def Info: images/hill.jpg  used on input line 461.
+Package luatex.def Info: images/hill.jpg  used on input line 460.
 (luatex.def)             Requested size: 72.34442pt x 96.73918pt.
 
 
@@ -1304,7 +1304,7 @@ Package luatex.def Info: images/hill.jpg  used on input line 461.
 <images/kwon.jpg, id=217, 130.743pt x 186.9165pt>
 File: images/kwon.jpg Graphic file (type jpg)
 <use images/kwon.jpg>
-Package luatex.def Info: images/kwon.jpg  used on input line 488.
+Package luatex.def Info: images/kwon.jpg  used on input line 487.
 (luatex.def)             Requested size: 67.66554pt x 96.73918pt.
 
 
@@ -1314,7 +1314,7 @@ Package luatex.def Info: images/kwon.jpg  used on input line 488.
 <images/stone.jpg, id=223, 138.627pt x 184.617pt>
 File: images/stone.jpg Graphic file (type jpg)
 <use images/stone.jpg>
-Package luatex.def Info: images/stone.jpg  used on input line 516.
+Package luatex.def Info: images/stone.jpg  used on input line 515.
 (luatex.def)             Requested size: 72.64276pt x 96.73918pt.
 
 
@@ -1324,7 +1324,7 @@ Package luatex.def Info: images/stone.jpg  used on input line 516.
 <images/spitzer.png, id=229, 150.5625pt x 170.6375pt>
 File: images/spitzer.png Graphic file (type png)
 <use images/spitzer.png>
-Package luatex.def Info: images/spitzer.png  used on input line 543.
+Package luatex.def Info: images/spitzer.png  used on input line 542.
 (luatex.def)             Requested size: 85.35973pt x 96.73918pt.
 
 
@@ -1352,13 +1352,13 @@ Package luatex.def Info: images/spitzer.png  used on input line 543.
 
 ]
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 589.
+(Font)              scaled to size 5.76004pt on input line 588.
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/m/it' will be
-(Font)              scaled to size 8.64006pt on input line 589.
+(Font)              scaled to size 8.64006pt on input line 588.
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/m/it' will be
-(Font)              scaled to size 5.76004pt on input line 589.
+(Font)              scaled to size 5.76004pt on input line 588.
 LaTeX Font Info:    Font shape `TU/TeXGyreHeros(0)/m/it' will be
-(Font)              scaled to size 4.80003pt on input line 589.
+(Font)              scaled to size 4.80003pt on input line 588.
 
 
 [31
@@ -1456,7 +1456,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <images/PUBLIC-ADMINISTRATION-color.png, id=426, 457.71pt x 303.1325pt>
 File: images/PUBLIC-ADMINISTRATION-color.png Graphic file (type png)
 <use images/PUBLIC-ADMINISTRATION-color.png>
-Package luatex.def Info: images/PUBLIC-ADMINISTRATION-color.png  used on input line 817.
+Package luatex.def Info: images/PUBLIC-ADMINISTRATION-color.png  used on input line 816.
 (luatex.def)             Requested size: 128.88426pt x 85.35826pt.
 
 
@@ -1491,7 +1491,7 @@ Here is how much of LuaTeX's memory you used:
  105 fonts using 16224967 bytes
  128i,15n,139p,1985b,1184s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-italic.otf></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-regular.otf></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on mpa_orientation_2025_fall.pdf (54 pages, 6373695 bytes).
+Output written on mpa_orientation_2025_fall.pdf (54 pages, 6373741 bytes).
 
 PDF statistics: 464 PDF objects out of 1000 (max. 8388607)
  371 compressed objects within 4 object streams
